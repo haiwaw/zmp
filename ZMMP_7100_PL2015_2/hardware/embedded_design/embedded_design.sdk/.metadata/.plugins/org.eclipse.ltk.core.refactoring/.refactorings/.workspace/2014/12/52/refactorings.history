@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 8 resources" deleteContents="false" description="Delete 8 resources" element1="/standalone_bsp_0" element2="/zynq_mmp_flash_test" element3="/zynq_mmp_i2c_test" element4="/zynq_mmp_lwip_echo_server" element5="/zynq_mmp_lwip_echo_server_bsp" element6="/zynq_mmp_mem_test" element7="/zynq_mmp_peripheral_test" element8="/zynq_mmp_usb_test" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="8" stamp="1419263728681"/>
+</session>

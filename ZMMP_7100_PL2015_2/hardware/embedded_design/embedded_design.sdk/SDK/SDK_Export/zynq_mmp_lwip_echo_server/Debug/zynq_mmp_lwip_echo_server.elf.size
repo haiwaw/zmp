@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+ 124460	   3128	 795500	 923088	  e15d0	zynq_mmp_lwip_echo_server.elf

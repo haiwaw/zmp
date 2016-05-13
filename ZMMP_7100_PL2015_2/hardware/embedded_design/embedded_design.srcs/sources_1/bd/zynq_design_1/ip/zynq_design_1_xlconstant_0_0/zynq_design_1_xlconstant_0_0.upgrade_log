@@ -1,0 +1,21 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:29:27 MST 2014
+| Date         : Sat Dec 13 14:32:29 2014
+| Host         : HP-Z210 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7z100ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq_design_1_xlconstant_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zynq_design_1_xlconstant_0_0 from xilinx.com:ip:xlconstant:1.0 to xilinx.com:ip:xlconstant:1.1 (Rev. 1)
+
+2. Upgrade messages
+-------------------
+
+Renamed port const to dout
+
