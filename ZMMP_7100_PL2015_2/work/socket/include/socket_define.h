@@ -29,12 +29,14 @@
 #include <netdb.h>
 
 
-#define SOCKET_MAX_BUFFER_LEN 1024
+//#define SOCKET_MAX_BUFFER_LEN 1024
 
 using namespace std;
 
 namespace Socket
 {
+    const size_t SOCKET_MAX_BUFFER_LEN = 1024;
+
     typedef int SocketId;
     typedef string Ip;
     typedef unsigned int Port;

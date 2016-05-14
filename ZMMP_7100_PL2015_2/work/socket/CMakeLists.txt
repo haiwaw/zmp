@@ -7,6 +7,18 @@ project(socket)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include/)
 
+
+add_executable(tcp_server
+  examples/tcp_server.cpp 
+  src/socket_exception.cpp
+  src/address.cpp
+  src/common_socket.cpp
+  src/datagram.cpp
+  src/udp.cpp
+  src/tcp.cpp
+  )
+
+
 add_executable(tcp_recv
   examples/tcp_receiver.cpp 
   src/socket_exception.cpp
@@ -27,15 +39,15 @@ add_executable(tcp_send
   src/tcp.cpp
   )
 
-#add_executable(udp_recv
-#  examples/udp_receiver.cpp 
-#  src/socket_exception.cpp
-#  src/address.cpp
-#  src/common_socket.cpp
-#  src/datagram.cpp
-#  src/udp.cpp
-#  src/tcp.cpp
-#  )
+add_executable(udp_recv
+  examples/udp_receiver.cpp 
+  src/socket_exception.cpp
+  src/address.cpp
+  src/common_socket.cpp
+  src/datagram.cpp
+  src/udp.cpp
+  src/tcp.cpp
+  )
 
 add_executable(udp_send
   examples/udp_sender.cpp 

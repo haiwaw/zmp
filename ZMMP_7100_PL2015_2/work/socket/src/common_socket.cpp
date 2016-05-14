@@ -58,10 +58,7 @@ namespace Socket
     void CommonSocket::close(void)
     {
         if (this->_opened)
-
-        shutdown(this->_socket_id, SHUT_RDWR);
-
-
+            shutdown(this->_socket_id, SHUT_RDWR);
         this->_opened = false;
         this->_binded = false;
     }

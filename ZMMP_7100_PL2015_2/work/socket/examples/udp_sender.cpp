@@ -22,6 +22,7 @@ struct prova
 {
     int something;
     float somethingelse;
+    prova(int sth, float sthe) : something(sth), somethingelse(sthe) {};
 };
 
 int main(void)
@@ -43,7 +44,9 @@ int main(void)
         sock.send<double>(to, darr, 5);
         
         vector<prova> vec;
-        for (int i = 0; i < 5; i++) vec.push_back( { i, i + 1 });
+        for (int i = 0; i < 5; i++) {
+            vec.push_back( prova(i, float(i+1)) ) ;
+        }
         sock.send<prova>(to, vec);
 
         sock.close();

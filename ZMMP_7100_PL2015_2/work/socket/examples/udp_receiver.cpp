@@ -22,6 +22,8 @@ struct prova
 {
     int something;
     float somethingelse;
+    prova(void){} ;
+    prova(int sth, float sthe) : something(sth), somethingelse(sthe) {};
 };
 
 int main(void)
@@ -29,7 +31,7 @@ int main(void)
     try
     {
         Socket::UDP sock;
-        double buffer[SOCKET_MAX_BUFFER_LEN];
+        double buffer[Socket::SOCKET_MAX_BUFFER_LEN];
         int i;
 
         sock.listen_on_port(10000);
