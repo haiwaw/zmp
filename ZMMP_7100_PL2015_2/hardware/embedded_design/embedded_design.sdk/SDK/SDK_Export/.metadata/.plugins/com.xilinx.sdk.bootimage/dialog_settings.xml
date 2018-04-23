@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<section name="Workbench">
-	<item value="D:\Vivado_2013_3_Designs\Zynq_MMP\zynq_mmp_7z045_embedded_design\microSD_Card_and_QSPI_Files\bootimage.bif,D:\Vivado_2013_2_Designs\Zynq_Mini_ITX\SATA_Interface_7100\QSPI_and_SD_Card_Files\bootimage.bif,D:\Vivado_2013_3_Designs\Zynq_MMP\zynq_mmp_7z100_pcie_design\QSPI_and_SD_Card_Files\bootimage.bif,D:\Vivado_2013_2_Designs\Zynq_MMP\zynq_mmp_7z045_pcie_design\ready_for_download\zynq_mmp_pcie_x4_gen2\bootimage.bif,D:\Vivado_2013_2_Designs\Zynq_MMP\zynq_mmp_7z045_pcie_design\ready_for_download\bootimage.bif" key="com.xilinx.sdk.bootimage.history"/>
-</section>
